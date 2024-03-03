@@ -6,6 +6,6 @@ class MutableClass {
   }
  
   public Date getDate() {
-    return d;
+    return (Date)d.clone();
   }
 }
